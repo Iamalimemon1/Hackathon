@@ -24,7 +24,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="navbar bg-[#F0F2F3] h-[84px]">
+        <div className="topbar bg-[#F0F2F3] h-[84px]">
           <div className="logo flex items-center justify-around p-[22px]">
             <Image
               src="/Logo.png"
@@ -34,10 +34,28 @@ function Navbar() {
             />
 
             <div className="cart flex text-[#272343] items-center pl-4 bg-white w-[120px] h-[44px] rounded-lg gap-2"><FiShoppingCart /> Cart <div className="relative"> <FaCircle className='text-[#007580] text-[20px]' /></div></div>
-
-            
           </div>
         </div>
+
+        <nav className="navbar bg-[#ffffff] text-[#636270] h-[74px]">
+          <div className="logo flex items-center justify-around p-[25px]">
+
+            <div className="links flex items-center justify-center p-[4px] gap-6">
+            <Link href="/" className='flex items-center gap-1 text-[14px] text-[#007580] font-medium hover:text-[#007580] active:text-[#007580]'>Home</Link>
+
+            <Link href="/shop" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>Shop</Link>
+
+            <Link href="/product" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>Product</Link>
+
+            <Link href="/pages" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>Pages</Link>
+
+            <Link href="/about" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>About</Link>
+            </div>
+
+            <div className="cta text-[#636270]">Contact: <span className='font-bold text-[#272343] text-[14px]'>(808) 555-0111</span></div>
+            
+          </div>
+        </nav>
 
       </div>
     </header>
