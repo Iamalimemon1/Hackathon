@@ -11,6 +11,7 @@ import Image from 'next/image';
 function Navbar() {
   return (
     <header>
+      {/* TopBanner  */}
       <div className="container bg-[#272343] w-full max-w-[1920px] h-[45px]">
         <div className="banner flex p-[12px] items-center justify-around gap-2 text-[13px] text-white">
           <div className="tleft gap-2 flex items-center">
@@ -33,11 +34,35 @@ function Navbar() {
               height={40}
             />
 
-            <div className="cart flex text-[#272343] items-center pl-4 bg-white w-[120px] h-[44px] rounded-lg gap-2"><FiShoppingCart /> Cart <div className="relative"> <FaCircle className='text-[#007580] text-[20px]' /></div></div>
-
-            
+            <div className="cart flex text-[#272343] items-center pl-4 bg-white w-[120px] h-[44px] rounded-lg gap-2"><FiShoppingCart /> Cart <div className='rounded-full bg-[#007580] text-[10px] font-medium h-5 w-5 text-white content-center'>
+              <p className="text-center text-[12px]">2</p>
+            </div>
+            </div>
           </div>
         </div>
+
+        {/* NavBar */}
+
+        <nav className="navbar bg-[#ffffff] text-[#636270] h-[74px] relative drop-shadow-sm">
+          <div className="logo flex items-center justify-around p-[25px]">
+
+            <div className="links flex items-center justify-center p-[4px] gap-6">
+            <Link href="/" className='flex items-center gap-1 text-[14px] text-[#007580] font-medium hover:text-[#007580] active:text-[#007580]'>Home</Link>
+
+            <Link href="/shop" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>Shop</Link>
+
+            <Link href="/product" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>Product</Link>
+
+            <Link href="/pages" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>Pages</Link>
+
+            <Link href="/about" className='flex items-center gap-1 text-[14px] font-medium hover:text-[#007580]'>About</Link>
+            </div>
+
+            <div className="cta text-[#636270]">Contact: <span className='font-bold text-[#272343] text-[14px]'>(808) 555-0111</span></div>
+            
+          </div>
+        </nav>
+
 
       </div>
     </header>
