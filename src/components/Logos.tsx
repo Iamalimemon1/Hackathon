@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Logos() {
     return (
-        <section className=' flex lg:flex-row flex-col gap-10 p-4 justify-self-center items-center'>
+        <section className=' flex lg:flex-row flex-col gap-[70px] p-4 justify-self-center items-center'>
             {logo.map((logo, index) =>
                 <Image
                     key={index}
