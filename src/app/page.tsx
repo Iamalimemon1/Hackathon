@@ -4,7 +4,7 @@ import Logos from '@/components/Logos';
 import Featured from '@/components/Featured';
 import Categories from '@/components/Categories';
 import Explore from '@/components/Explore';
-
+import OurProducts from '@/components/OurProducts';
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       <Featured/>
       <Categories/>
       <Explore/>
+      <OurProducts/>
     </div>
   );
 }

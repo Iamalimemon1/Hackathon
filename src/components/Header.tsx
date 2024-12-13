@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { MdDone } from "react-icons/md";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import { FaAngleDown } from "react-icons/fa6";
+import { PiShoppingCartSimple } from "react-icons/pi";
 import Image from 'next/image';
 
 
@@ -44,11 +45,7 @@ function Header() {
 
                 <Link href="/">
                     <div className='bg-white px-4 py-[11px] rounded-lg flex items-center text-center gap-2'>
-                        <Image
-                            alt='cart'
-                            width={22}
-                            height={22}
-                            src="/cart.png"></Image>
+                        <PiShoppingCartSimple className='text-[22px] text-[#272343]'/>
                         <p>Cart</p>
                         <div className='rounded-full bg-[#007580] text-[10px] font-medium h-5 w-5 text-white content-center'>
                             <p className={`'text-center' `}>2</p>

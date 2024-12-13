@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import React from 'react'
 import ProductInfo from './data/products'
+import { PiShoppingCartSimple } from "react-icons/pi";
 
 const Products = () => {
   return (
@@ -20,16 +20,12 @@ const Products = () => {
                       </div>
                       <div className=' py-[10px] px-[10px] rounded-lg'
                       style={{backgroundColor: info.shouldInvert ? '#F0F2F3' : '#029FAE '}}>
-                          <Image
-                              alt='cart'
-                              width={24}
-                              height={24}
-                              src='/cart.png'
+                          <PiShoppingCartSimple className='text-[24px]'
                            
                               style={{
                                   filter: info.shouldInvert ? 'none' : 'invert(1)',
                                   
-                               }}></Image>
+                               }}/>
                       </div>
                       </div>
     </div>
