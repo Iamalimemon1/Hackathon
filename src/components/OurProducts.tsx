@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import ProductInfo from './data/products'
 import { PiShoppingCartSimple } from "react-icons/pi";
 
