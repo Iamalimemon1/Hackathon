@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import Logos from '@/components/Logos';
 import Featured from '@/components/Featured';
 import Categories from '@/components/Categories';
+import Explore from '@/components/Explore';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Logos/>
       <Featured/>
       <Categories/>
+      <Explore/>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-const ProductInfo = [
+const Product = [
     {
         bgImg: "/products/Image.png",
         text: "New",
@@ -78,4 +78,4 @@ const ProductInfo = [
   
 ]
 
-export default ProductInfo
+export default Product
