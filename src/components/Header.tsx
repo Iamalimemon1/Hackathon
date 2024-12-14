@@ -22,7 +22,7 @@ function Header() {
                         <Link href="/" className='flex gap-[6px] items-center'><p>Eng</p>
                             <FaAngleDown /></Link>
                     </div>
-                    <Link href="/"><p>Faq</p></Link>
+                    <Link href="/faq"><p>Faq</p></Link>
 
                     <div>
                         <Link href="/" className='flex gap-[6px] items-center'><HiOutlineExclamationCircle />

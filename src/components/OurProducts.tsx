@@ -4,7 +4,7 @@ import { PiShoppingCartSimple } from "react-icons/pi";
 
 const OurProducts = () => {
     return (
-        <section className='grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-2 gap-x-5 justify-self-center'>
+        <section className='grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-2 gap-x-5 justify-self-center mb-20'>
             {ProductInfo.slice(0, 8).map((info, index) =>
                 <div className='justify-self-center' key={index}>
                     <div className=' w-[312px] h-[312px] bg-cover pt-5 pl-5'
