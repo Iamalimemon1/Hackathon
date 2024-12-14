@@ -43,7 +43,7 @@ function Header() {
                     <h1 className='text-center text-[#272343] text-[26px] font-medium'>Comforty</h1>
                 </div>
 
-                <Link href="/">
+                <Link href="/cart">
                     <div className='bg-white px-4 py-[11px] rounded-lg flex items-center text-center gap-2'>
                         <PiShoppingCartSimple className='text-[22px] text-[#272343]'/>
                         <p>Cart</p>
