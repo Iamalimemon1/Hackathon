@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 const AllProducts = () => {
     return (
-        <section className='flex flex-col gap-8 justify-self-center'>
+        <section className='flex flex-col gap-8 justify-self-center mt-[61.5px]'>
             <h1 className='text-[#272343] font-semibold text-[32px]'>All Products</h1>
             <div className='grid lg:grid-cols-4 gap-5 justify-self-center'>
 
                 {ProductInfo.map((info, index) =>
-                    <Link href="/singleProduct" key={index}>
+                    <Link href="/singleproduct" key={index}>
                         <div className='justify-self-center' >
                             <div className=' w-[312px] h-[312px] bg-cover pt-5 pl-5'
                                 style={{ backgroundImage: `url(${info.bgImg})` }}>

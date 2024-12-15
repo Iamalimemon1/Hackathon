@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Hero = () => {
@@ -11,7 +12,7 @@ const Hero = () => {
                         Collection for your
                         interior.</h1>
                 </div>
-                <button className='py-[14px] px-[24px] bg-[#029FAE] flex gap-2 items-center w-[170px] text-white rounded-lg'>Show Now <span className='text-[24px]'> &#8594;</span></button>
+                <Link href="/product"><button className='py-[14px] px-[24px] bg-[#029FAE] flex gap-2 items-center w-[170px] text-white rounded-lg'>Show Now <span className='text-[24px]'> &#8594;</span></button></Link>
             </article>
             <Image
                 alt='chair'

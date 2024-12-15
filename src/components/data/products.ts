@@ -1,6 +1,6 @@
 const Product = [
     {
-        bgImg: "/products/Image.png",
+        bgImg: "/products/Image-6.png",
         text: "New",
         bgcolor: '#01AD5A',
         shouldInvert: false
@@ -8,25 +8,25 @@ const Product = [
     },
 
       {
-        bgImg: "/products/Image-1.png",
+        bgImg: "/products/Image.png",
           text: 'Sale',
          bgcolor: '#F5813F',
          strike: "$30",
          shouldInvert: true
     },
         {
-        bgImg: "/products/Image-2.png",
+        bgImg: "/products/Image-11.png",
         shouldInvert: true
 
     },
           {
-        bgImg: "/products/Image-3.png",
+        bgImg: "/products/Image-2.png",
         shouldInvert: true
 
     },
           
               {
-        bgImg: "/products/Image-4.png",
+        bgImg: "/products/Image-8.png",
         text: "New",
         bgcolor: '#01AD5A',
         shouldInvert: false
